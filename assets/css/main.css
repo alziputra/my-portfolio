@@ -180,7 +180,7 @@ html {
 }
 
 .menu .copyright-text p {
-    border-top: 1px solid rgba(250, 250, 250, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: inline-block;
     width: 100%;
     padding-left: 30px;
@@ -284,12 +284,12 @@ html {
     position: relative;
     min-height: 100vh;
     padding-bottom: 80px;
-    border-bottom: 3px solid rgba(180, 180, 180, 0.25);
+    border-bottom: 3px solid #ffdba0;
 }
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 40px 45px;
 }
 
 .section-heading h2 {
@@ -359,7 +359,13 @@ button:hover {
 .right-image-post {
     margin-top: 60px;
     padding-top: 60px;
-    border-top: 2px solid rgba(250, 250, 250, 0.1);
+    border-top: 2px solid #999;
+}
+
+.left-image-post {
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 2px solid #999;
 }
 
 .left-image img,
@@ -369,7 +375,7 @@ button:hover {
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .right-image-post p,
